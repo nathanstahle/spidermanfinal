@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Page</title>
+    <link rel="stylesheet" href="css/scratch-styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 15px;
+        }
+        .nav-link:hover {
+            background-color: #ff5733;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1, h3 {
+            color: #ff5733;
+        }
+        .anchor-link {
+            color: blue;
+            text-decoration: none;
+        }
+        .anchor-link:hover {
+            text-decoration: underline;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        .joke {
+            font-size: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #555;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff3b00;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .tableau-embed {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="scratch.html" class="nav-link">Scratch Page</a>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h1>Why Andrew Garfield is the Best Spider-Man</h1>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/andrew-garfield-spider-man-1631116945.jpg?crop=0.998046875xw:1xh;center,top&resize=980:*" alt="Description of the image" width="800" height="auto"> 
+        <p>Andrew Garfield's portrayal of Spider-Man in "The Amazing Spider-Man" series brought depth, charisma, and emotional nuance to the character.</p>
+
+        <!-- Unordered List in Ordered List -->
+        <ol>
+            <li>Reasons Why Andrew Garfield Stands Out:
+                <ul>
+                    <li>His Spider-Man quips and humor perfectly match the comic character.</li>
+                    <li>He shows emotional vulnerability, especially in tragic moments.</li>
+                    <li>His chemistry with Gwen Stacy (Emma Stone) is unmatched.</li>
+                </ul>
+            </li>
+            <li>Top Moments:
+                <ul>
+                    <li>The bridge scene in *The Amazing Spider-Man (2012)*.</li>
+                    <li>The fight with Electro in Times Square.</li>
+                    <li>His redemption arc in *Spider-Man: No Way Home*.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <!-- Embedded YouTube Video -->
+        <h3>Watch a random Video:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DJuloZc4QJw?si=p6jUItaIdwKxfPKd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Joke Generator Section -->
+        <h3>Try a Joke Generator!</h3>
+        <div class="container">
+            <p class="joke">Click the button for a joke!</p>
+            <button class="btn" onclick="generateJoke()">Get a Joke</button>
+        </div>
+
+        <!-- On-page Anchor -->
+        <p>Scroll to the top of the page <a href="#top" class="anchor-link">here</a>.</p>
+
+        <!-- Embedded Tableau Visualization -->
+        <h3>Interactive Visualization:</h3>
+        <div class='tableauPlaceholder' id='viz1734572805098' style='position: relative'><noscript><a href='#'><img alt='COVID-19 HR Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COVID-19HumanResources&#47;COVID-19HRDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='COVID-19HumanResources&#47;COVID-19HRDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COVID-19HumanResources&#47;COVID-19HRDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1734572805098');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='900px';vizElement.style.height='927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
+        
+   
+    <!-- Scroll Anchor -->
+    
+
+    <script>
+        // Array of jokes for the generator
+        const jokes = [
+            "Why don't skeletons fight each other? They don't have the guts!",
+            "Why was the math book sad? Because it had too many problems!",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+            "Why don’t some couples go to the gym? Because some relationships don’t work out.",
+            "I asked the librarian if the library had any books on paranoia. She whispered, 'They're right behind you.'"
+        ];
+
+        // Function to display a random joke
+        function generateJoke() {
+            const randomIndex = Math.floor(Math.random() * jokes.length);
+            const jokeElement = document.querySelector('.joke');
+            jokeElement.textContent = jokes[randomIndex];
+        }
+    </script>
+<a id="#top"></a>
+</body>
+</html>
